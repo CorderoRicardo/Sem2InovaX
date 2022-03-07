@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Panecito - Pastel y cafecito</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <img src=".\logo.png" alt="">
+    <h3>Pasteles</h3>
+    <hr>
+    <dl>
+        <dt>3 leches</dt>
+        <dd>- $250</dd>
+        <dt>Piñon</dt>
+        <dd>- $350</dd>
+        <dt>Queso con zarzamora</dt>
+        <dd>- $300</dd>
+    </dl>
+<br>
+<hr>
+<h3>Adornos</h3>
+    <ul>
+        <li>Fruta: $20</li>
+        <li>Imagen: $50</li>
+        <li>Chocolate rayado: 25$</li>
+    </ul>
+
+    <br>
+    <hr>
+    <h3>Pedido</h3>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="tel" name="telefono" name="telefono"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <label for="describePastel">Descripcion del pastel:</label>
+        <input type="text" name="describePastel" name="describePastel"><br><br>
+
+        <h4>Sabores</h4>
+        <input type="checkbox" id="flavor1" name="flavor1" value="3 leches">
+        <label for="flavor1">3 leches</label><br>
+        <input type="checkbox" id="flavor2" name="flavor2" value="Queso con zarzamora">
+        <label for="flavor2">Queso con zarzamora</label><br>
+        <input type="checkbox" id="flavor3" name="flavor3" value="Piñon">
+        <label for="flavor3">Piñon</label><br><br>
+
+        <h4>Adornos</h4>
+        <input type="checkbox" id="topping1" name="topping1" value="Fruta">
+        <label for="topping1">Fruta</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Imagen">
+        <label for="topping2">Imagen</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Chocolate rayado">
+        <label for="topping3">Chocolate rayado</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+
+</body>
+<footer>
+    <hr>
+    <h3>Informacion de contacto</h3>
+    <table>
+        <tr>
+            <th>Direccion</th>
+            <th></th>
+            <th>Telefono</th>
+            <th></th>
+            <th>Horarios de atención</th>
+        </tr>
+        <tr>
+            <td>Calle falsa 123</td>
+            <td></td>
+            <td>555-55-55555</td>
+            <td></td>
+            <td><ul>
+                <li>Lunes a viernes: 9:00am - 5:00pm</li>
+                <li>Sábados: 9:00am - 2:00pm</li>
+            </ul></td>
+        </tr>
+
+        </tr>
+    </table>
+</footer>
+</html>
